@@ -34,15 +34,15 @@ This dashboard provides insights into housing market performance across differen
 
 6. Built DAX Measures for core KPIs including:
 
-  ⦁	Average Offer Price
+      ⦁	Average Offer Price
 
-  ⦁	Average Purchase Price
+      ⦁	Average Purchase Price
 
-  ⦁	Yield %
+      ⦁	Yield %
 
-  ⦁	Interest Rate & Inflation
+      ⦁	Interest Rate & Inflation
 
-  ⦁	Price Per Sqm
+      ⦁	Price Per Sqm
 
 
 
@@ -57,13 +57,13 @@ This dashboard provides insights into housing market performance across differen
 
 10. Added Slicers for:
 
-  ⦁	Area
+      ⦁	Area
 
-  ⦁	City
+      ⦁	City
 
-  ⦁	Sales Type
+      ⦁	Sales Type
 
-  ⦁	Region
+      ⦁	Region
 
 
 11. Applied a professional theme ensuring consistent formatting and visuals.
