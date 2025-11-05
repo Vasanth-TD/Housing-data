@@ -96,6 +96,7 @@ CALCULATE(
 )
 
    ``` 
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/6b82437a2c0c533682d08fb339f64b1e9249074a/images/unit%20sold.png)
 
 
 ```DAX
@@ -119,6 +120,10 @@ Offer Price =
 (100 * Housing[purchase_price]) /
 (100 - Housing[%_change_between_offer_and_purchase])
 
+  ```
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/1385e79b4bbf826ebe9fd6232afebb4f8cd1e59e/images/page%201%20_d2.png)
+
+  ```DAX
 YOY sales =
 VAR Currentyearsales =
     CALCULATE(
@@ -136,14 +141,22 @@ RETURN
        BLANK())
 
    ```
-### Page 2 – Sales Performance
 
+   ![image alt](https://github.com/Vasanth-TD/Housing-data/blob/1385e79b4bbf826ebe9fd6232afebb4f8cd1e59e/images/page%201_d3.png)
+
+
+### Page 2 – Sales Performance
+```DAX
    Total YTD =
 TOTALYTD(
     SUM(Housing[purchase_price]),
     Housing[date].[Date]
 )
 
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/1385e79b4bbf826ebe9fd6232afebb4f8cd1e59e/images/Page%202%20_d1.png)
+
+```
+```DAX
 Last Month Sale =
 CALCULATE(
     SUM(Housing[purchase_price]),
@@ -154,7 +167,9 @@ CALCULATE(
       MONTH
     )
 )
-
+```
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/1385e79b4bbf826ebe9fd6232afebb4f8cd1e59e/images/page%202%20_d2.png)
+```DAX
 Average sqm Price =
 AVERAGE(Housing[sqm_price])
 
@@ -163,6 +178,8 @@ CALCULATE(
     SUM(Housing[purchase_price]),
     ALLEXCEPT(Housing, Housing[region])
 )
+  ```
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/1385e79b4bbf826ebe9fd6232afebb4f8cd1e59e/images/page%202%20_d3.png)
 
 ### Page 3 – House Type Analysis
 
