@@ -10,19 +10,19 @@ This dashboard provides insights into housing market performance across differen
 
 ### Steps Followed
 
-1. Imported the Housing dataset into Power BI Desktop.
+ 1. Imported the Housing dataset into Power BI Desktop.
 
 
-2. Performed Data Profiling in Power Query (Column Quality, Distribution & Profile) to identify missing values and data inconsistencies.
+ 2. Performed Data Profiling in Power Query (Column Quality, Distribution & Profile) to identify missing values and data inconsistencies.
 
 
-3. Cleaned and transformed the data:
+ 3. Cleaned and transformed the data:
 
-  ⦁	Removed null / duplicate entries
+      ⦁	Removed null / duplicate entries
 
-  ⦁	Standardized data types (Date, Numeric, Category)
+      ⦁	Standardized data types (Date, Numeric, Category)
 	
-  ⦁	Created derived columns where needed.
+      ⦁	Created derived columns where needed.
 
 
 
