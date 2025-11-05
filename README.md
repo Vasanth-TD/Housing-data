@@ -18,11 +18,11 @@ This dashboard provides insights into housing market performance across differen
 
 3. Cleaned and transformed the data:
 
-⦁	Removed null / duplicate entries
+  ⦁	Removed null / duplicate entries
 
-⦁	Standardized data types (Date, Numeric, Category)
+  ⦁	Standardized data types (Date, Numeric, Category)
 	
-⦁	Created derived columns where needed.
+  ⦁	Created derived columns where needed.
 
 
 
@@ -34,15 +34,15 @@ This dashboard provides insights into housing market performance across differen
 
 6. Built DAX Measures for core KPIs including:
 
-⦁	Average Offer Price
+  ⦁	Average Offer Price
 
-⦁	Average Purchase Price
+  ⦁	Average Purchase Price
 
-⦁	Yield %
+  ⦁	Yield %
 
-⦁	Interest Rate & Inflation
+  ⦁	Interest Rate & Inflation
 
-⦁	Price Per Sqm
+  ⦁	Price Per Sqm
 
 
 
@@ -57,13 +57,13 @@ This dashboard provides insights into housing market performance across differen
 
 10. Added Slicers for:
 
-⦁	Area
+  ⦁	Area
 
-⦁	City
+  ⦁	City
 
-⦁	Sales Type
+  ⦁	Sales Type
 
-⦁	Region
+  ⦁	Region
 
 
 11. Applied a professional theme ensuring consistent formatting and visuals.
@@ -189,10 +189,14 @@ Average Interest Rate, Yield & Inflation Rate by House Type
 Average Sqm & Sqm Price by House Type
 These calculations are built using aggregated visuals and summarization in the report view.
 ## 📸 Snapshots of Dashboard
-Note: Upload actual images to your GitHub repo and replace paths below
-�
-�
-�
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/c4408bcfa4d067d2fc2c73d3bf8de6ba9bfb5963/images/PBS_1.png)
+
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/c4408bcfa4d067d2fc2c73d3bf8de6ba9bfb5963/images/PBS_2.png)
+
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/c4408bcfa4d067d2fc2c73d3bf8de6ba9bfb5963/images/PBS_3.png)
+
+![image alt](https://github.com/Vasanth-TD/Housing-data/blob/c4408bcfa4d067d2fc2c73d3bf8de6ba9bfb5963/images/PBS_4.png)
+
 ## Insights & Recommendations
  Highest number of units sold in the latest quarter, showing strong recent activity.
 ### Price Trends 
